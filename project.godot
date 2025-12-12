@@ -1,0 +1,36 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Demo2"
+run/main_scene="res://example.tscn"
+config/features=PackedStringArray("4.5", "Mobile")
+config/icon="res://icon.svg"
+
+[rendering]
+
+renderer/rendering_method="mobile"
+
+[xogot]
+
+project/editorState=[{
+"column": 0,
+"line": 8,
+"path": "res://image_43.gd",
+"type": "file"
+}, {
+"column": 71,
+"current": true,
+"line": 11,
+"path": "res://player_sprite.gd",
+"type": "file"
+}]
+project/breakpoints={}
